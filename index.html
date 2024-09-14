@@ -43,14 +43,47 @@
       display: grid;
       width: 100%;
       gap: 2rem;
-      grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+      grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
       place-items: center;
     }
 
     .grid {
-      height: 400px;
-      border-radius: 12px;
+      height: max-content;
+      border-radius: 15px;
       border: 1px solid red;
+    }
+
+    .grid1 {
+      padding: 2em 1em;
+      background-color: #7651dc;
+      text-align: center;
+      color: #fff;
+      height: 300px;
+    }
+
+    .grid1 > h1 {
+      font-size: 3rem;
+      font-weight: 500;
+      line-height: 0.9em;
+    }
+
+    .yellow {
+      color: #ffcd62;
+    }
+
+    .italic {
+      font-family: DMSans-MediumItalic;
+    }
+
+    .star {
+      padding-top: 1em;
+      padding-bottom: 2em;
+      font-size: 2rem;
+      line-height: 1em;
+    }
+
+    .star-para {
+      font-size: 1.2rem;
     }
 
   </style>
@@ -77,8 +110,9 @@
   <main>
     <div class="grid-container">
       <div class="grid grid1">
-        <h1>Social Media 10x Faster with AI
-          Over 4,000 5-star reviews</h1>
+        <h1>Social Media <span class="yellow">10x</span> <span class="italic">Faster</span> with AI</h1>
+        <p class="star">⭐⭐⭐⭐⭐ <br>
+          <span class="star-para">Over 4,000 5-star reviews</span></p>
       </div>
       <div class="grid grid2">
         <h1>Social Media 10x Faster with AI
