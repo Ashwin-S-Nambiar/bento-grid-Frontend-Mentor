@@ -37,6 +37,7 @@
     body {
       font-family: DMSans;
       padding: 2em 1em;
+      background-color: #f5f5f5;
     }
 
     .grid-container {
@@ -50,13 +51,14 @@
     .grid {
       height: max-content;
       border-radius: 15px;
-      border: 1px solid red;
     }
 
     .grid1 {
       padding: 2em 1em;
       background-color: #7651dc;
       text-align: center;
+      display: flex;
+      flex-direction: column;
       color: #fff;
       height: 300px;
     }
@@ -65,6 +67,7 @@
       font-size: 3rem;
       font-weight: 500;
       line-height: 0.9em;
+      padding-bottom: 0.5em;
     }
 
     .yellow {
@@ -75,72 +78,200 @@
       font-family: DMSans-MediumItalic;
     }
 
-    .star {
-      padding-top: 1em;
-      padding-bottom: 2em;
-      font-size: 2rem;
-      line-height: 1em;
+    .star-img {
+      margin: 0 auto;
+      width: 200px;
     }
 
     .star-para {
+      padding: 0.7em 0;
       font-size: 1.2rem;
+    }
+
+    .grid2 {
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5em;
+      text-align: left;
+      padding: 1.5em;
+    }
+
+    .grid2 > h1 {
+      font-size: 1.5rem;
+      line-height: 1.4rem;
+    }
+
+    .grid2-img {
+      width: 290px;
+    }
+
+    .grid3 {
+      background-color: #ffcc69;
+      padding: 0 1.5em;
+      padding-top: 1em;
+      gap: 1rem;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .grid3-img {
+      width: 250px;
+    }
+
+    .grid3 > h1 {
+      font-size: 1.5rem;
+      line-height: 1.4rem;
+    }
+
+    .grid4 {
+      background-color: #dcd1fd;
+      padding: 1.5em;
+      gap: 1rem;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .grid4-img {
+      width: 290px;
+    }
+
+    .grid4 > h1 {
+      font-size: 1.5rem;
+    }
+
+    .grid4 > p {
+      font-size: 1rem;
+      padding: 1em 1.5em;
+      font-weight: 600;
+    }
+
+    .grid5 {
+      background-color: #7651dc;
+      padding: 1.5em;
+      gap: 1rem;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .grid5-img {
+      width: 250px;
+    }
+
+    .grid5 > h1 {
+      color: #ffffff;
+      font-size: 1.5rem;
+      font-weight: 500;
+      line-height: 1.4rem;
+      padding: 0 2em;
+    }
+
+    .grid6 {
+      background-color: #ffffff;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      padding: 1.5em;
+      width: 100%;
+    }
+
+    .grid6 > h1 {
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .grid6 > h1 > span {
+      font-size: 2rem;
+    }
+
+    .grid6-img {
+      width: 180px;
+    }
+
+    .grid7 {
+      background-color: #faeee2;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      padding: 1.5em;
+      padding-bottom: 2em;
+    }
+
+    .grid7 > h1 {
+      font-size: 1.5rem;
+      line-height: 1.4rem;
+    }
+
+    .grid7 > h1 > span {
+      color: #7651dc;
+      font-family: DMSans-ItalicVar;
+    }
+
+    .grid7-img {
+      width: 180px;
+    }
+
+    .grid8 {
+      background-color: #ffcc69;
+      padding: 1.5em;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .grid8 > h1 {
+      font-size: 1.8rem;
+      line-height: 1.4rem;
+    }
+
+    .grid8-img {
+      width: 200px;
     }
 
   </style>
 </head>
 <body>
-
-  <!-- Social Media 10x Faster with AI
-  Over 4,000 5-star reviews
-
-  Manage multiple accounts and platforms.
-
-  Maintain a consistent posting schedule.
-
-  Schedule to social media.
-  Optimize post timings to publish content at the perfect time for your audience.
-  
-  Grow followers with non-stop content.
-
-  >56% faster audience growth
-  
-  Create and schedule content quicker.
-
-  Write your content using AI. -->
   <main>
     <div class="grid-container">
       <div class="grid grid1">
         <h1>Social Media <span class="yellow">10x</span> <span class="italic">Faster</span> with AI</h1>
-        <p class="star">⭐⭐⭐⭐⭐ <br>
+          <img src="./assets/images/illustration-five-stars.webp" class="star-img" alt="stars"/>
           <span class="star-para">Over 4,000 5-star reviews</span></p>
       </div>
       <div class="grid grid2">
-        <h1>Social Media 10x Faster with AI
-          Over 4,000 5-star reviews</h1>
+        <img src="./assets/images/illustration-multiple-platforms.webp" class="grid2-img" alt="Image for grid"/>
+        <h1>Manage multiple accounts and platforms.</h1>
       </div>
       <div class="grid grid3">
-        <h1>Social Media 10x Faster with AI
-          Over 4,000 5-star reviews</h1>
+        <h1>Maintain a consistent posting schedule.</h1>
+        <img src="./assets/images/illustration-consistent-schedule.webp" class="grid3-img" alt="consistent schedule"/>
       </div>
       <div class="grid grid4">
-        <h1>Social Media 10x Faster with AI
-          Over 4,000 5-star reviews</h1>
+        <h1>Schedule to social media.</h1>
+        <img src="./assets/images/illustration-schedule-posts.webp" class="grid4-img" alt="schedule posts"/>
+        <p>Optimize post timings to publish content at the perfect time for your audience.</p>
       </div>
       <div class="grid grid5">
-        <h1>Social Media 10x Faster with AI
-          Over 4,000 5-star reviews</h1>
+        <img src="./assets/images/illustration-grow-followers.webp" class="grid5-img" alt="grow followers"/>
+        <h1>Grow followers with non-stop content.</h1>
       </div>
       <div class="grid grid6">
-        <h1>Social Media 10x Faster with AI
-          Over 4,000 5-star reviews</h1>
+        <h1><span>>56%</span> <br> faster audience growth</h1>
+        <img src="./assets/images/illustration-audience-growth.webp" class="grid6-img" alt="audience growth"/>
       </div>
       <div class="grid grid7">
-        <h1>Social Media 10x Faster with AI
-          Over 4,000 5-star reviews</h1>
+        <h1>Create and schedule content <span>quicker.</span></h1>
+        <img src="./assets/images/illustration-create-post.webp" class="grid7-img" alt="create post"/>
       </div>
       <div class="grid grid8">
-        <h1>Social Media 10x Faster with AI
-          Over 4,000 5-star reviews</h1>
+        <h1>Write your content using AI.</h1>
+        <img src="./assets/images/illustration-ai-content.webp" class="grid8-img" alt="ai content"/>
       </div>
     </div>
   </main>
