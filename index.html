@@ -237,13 +237,179 @@
     /* Media Queries */
 
     /* xs */
-    /* @media (min-width: 475px) {} */
+    @media (min-width: 565px) {
+      .grid2 {
+        margin-left: 2rem;
+      }
+
+      .grid4 {
+        margin-left: 3rem;
+      }
+    }
 
     /* sm */
     /* @media (min-width: 640px) {} */
 
     /* md */
-    /* @media (min-width: 768px) {} */
+    @media (min-width: 768px) {
+
+      .grid1 {
+        grid-area: grid1;      
+      }
+      .grid2 {
+        grid-area: grid2;    
+      }
+      .grid3 {
+        grid-area: grid3;
+      }
+      .grid4 {
+        grid-area: grid4;
+      }
+      .grid5 {
+        grid-area: grid5;
+      }
+      .grid6 {
+        grid-area: grid6;
+      }
+      .grid7 {
+        grid-area: grid7;
+      }
+      .grid8 {
+        grid-area: grid8;
+      }
+
+      .grid-container {
+        grid-template-columns: none;
+        grid-template-areas: 
+          "grid7 grid1 grid1 grid4 "
+          "grid7 grid1 grid1 grid4 "
+          "grid7 grid1 grid1 grid4 " 
+          "grid7 grid2 grid3 grid4 "
+          "grid8 grid2 grid3 grid4 "
+          "grid8 grid6 grid5 grid5 "
+          "grid8 grid6 grid5 grid5 "
+          "grid8 grid6 grid5 grid5 "
+          ;
+      }
+
+      .grid {
+        height: 100%;
+        width: 100%;
+      }
+
+      .grid7 {
+        padding: 5em 3em;
+      }
+      .grid7 > h1 {
+        font-size: 2rem;
+        line-height: 2rem;
+        font-weight: 600;
+      }
+
+      .grid1 {
+        padding: 2em 4em;
+      }
+
+      .grid1 > h1 {
+        font-size: 3.75rem;
+      }
+
+      .star-img {
+        width: 300px;
+      }
+
+      .star-para {
+        font-size: 1.25rem;
+      }
+
+      .grid4 {
+        padding: 2em;
+        margin-left: 0;
+      }
+
+      .grid4 > h1 {
+        text-align: left;
+        padding-right: 2em;
+        padding-left: 0.5em;
+        font-size: 2rem;
+        line-height: 2rem;
+      }
+
+      .grid4 > p {
+        font-size: 1.5rem;
+        text-align: left;
+        padding-left: 1em;
+        padding-right: 1em;
+        font-weight: 600;
+      }
+
+      .grid8 {
+        gap: 4rem;
+      }
+
+      .grid8 > h1 {
+        font-size: 2.5rem;
+        line-height: 2.2rem;
+        padding-right: 3em;
+      }
+
+      .grid8-img {
+        width: 300px;
+      }
+
+      .grid2 {
+        margin-left: 0;
+      }  
+
+      .grid2-img {
+        width: 400px;
+      }
+
+      .grid2 > h1 {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        padding-right: 5em;
+      }
+
+      .grid3 > h1 {
+        padding-right: 3em;
+        font-size: 2rem;
+        line-height: 2rem;
+      }
+
+      .grid6 {
+        gap: 2rem;
+      }
+
+      .grid6 > h1 > span{
+        font-size: 4rem;
+      }
+
+      .grid6 > h1 {
+        font-size: 1.25rem;
+      }
+
+      .grid6-img {
+        width: 250px;
+      }
+
+      .grid5 {
+        flex-direction: row;
+
+      }
+
+      .grid5-img {
+        width: 300px;
+      }
+
+      .grid5 > h1 {
+        text-align: left;
+        font-size: 3rem;
+        line-height: 2.5rem;
+        padding: 2em 1em;
+      }
+
+    }
 
     /* lg */
     /* @media (min-width: 1024px) {} */
@@ -262,7 +428,7 @@
       <div class="grid grid1">
         <h1>Social Media <span class="yellow">10x</span> <span class="italic">Faster</span> with AI</h1>
           <img src="./assets/images/illustration-five-stars.webp" class="star-img" alt="stars"/>
-          <span class="star-para">Over 4,000 5-star reviews</span></p>
+          <span class="star-para">Over 4,000 5-star reviews</span>
       </div>
       <div class="grid grid2">
         <img src="./assets/images/illustration-multiple-platforms.webp" class="grid2-img" alt="Image for grid"/>
