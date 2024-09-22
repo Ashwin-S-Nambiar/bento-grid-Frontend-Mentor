@@ -4,14 +4,16 @@
 
 ## Table Of Contents
 
-- [Overview](#overview)
-  - [The Challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My Process](#my-process)
-  - [Built With](#built-with)
-  - [Continued Development](#continued-development)
-- [Author](#author)
+- [Frontend Mentor - Bento Grid Solution](#frontend-mentor---bento-grid-solution)
+  - [Table Of Contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The Challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My Process](#my-process)
+    - [Built With](#built-with)
+    - [Continued Development](#continued-development)
+  - [Author](#author)
 
 ## Overview
 
@@ -39,7 +41,7 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-### Continued development
+### Continued Development
 
 ***Need to better the overall design as there is some scrolling now in case of larger screens.***
 
