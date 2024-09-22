@@ -4,8 +4,6 @@
 
 ## Table Of Contents
 
-- [Frontend Mentor - Bento Grid Solution](#frontend-mentor---bento-grid-solution)
-  - [Table Of Contents](#table-of-contents)
   - [Overview](#overview)
     - [The Challenge](#the-challenge)
     - [Screenshot](#screenshot)
