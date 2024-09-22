@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Built With
 
-- Semantic HTML5 markup
+- HTML5
 - CSS custom properties
 - Flexbox
 - CSS Grid
